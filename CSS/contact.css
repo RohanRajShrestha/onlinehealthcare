@@ -1,0 +1,54 @@
+.body_container{
+  margin-top: 3em;
+  position: relative;
+}
+.image_container{
+  margin-right: 15px;
+}
+.image_container img{
+  width: 45%;
+}
+.contact_container{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 52%;
+}
+.btn{
+    font-weight: 500;
+    background-color: #2767d4;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    margin: 5px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #3ba0ff;
+    box-shadow: 2px 2px 3px grey;
+}
+.contact_container label{
+  font-size: 22px;
+  font-family: Nunito;
+  margin-bottom: 5px;
+}
+.contact_container input[type="text"]{
+  border-style: none;
+  border-bottom: 2px solid black;
+  width: 80%;
+  margin: 10px 0;
+}
+
+.history_container{
+  position: absolute;
+  top: 85%;
+}
+.history_container h2{
+  border-bottom: 1px solid black;
+  padding: 15px 10px;
+}

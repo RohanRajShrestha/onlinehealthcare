@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Appointment</title>
+	<link rel = "icon" href = "../images/logo.png" type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../CSS/appointment.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/headerandfooter.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Slab:wght@300&family=STIX+Two+Math&family=Arvo&family=Amiri&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="fixed-width">
+		<b class= "head" >Electonic Health For Quality Care</b>
+		<span id="head"><a href="../index.html"><img src="../images/moto.png"></a></span>
+		<nav class="nav-bar">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="department.html">Our Team</a></li>
+					<li><a href="specialist.html">Talk to a Specialist</a></li>
+					<li><a href="appointment.html">Appointment</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+				<div class="dropdown">
+					<button class="dropbtn"><img src="../images/icon.png"></button>
+					<div class="dropdown_content">
+						<p>Test User</p>
+						<a href="#" onclick="on()">Profile</a>
+						<a href="Log.html">Switch Account</a>
+						<a href="#">Medical Reports</a>
+						<a href="appointment.html">Appointment</a>
+						<a href="../index.html">Logout</a>
+						</div>
+				</div>
+			<div style="clear: both;"></div>
+		</nav>
+		<div class="container">
+			<div class="side_nav">
+				<h2>Services</h2>
+					<ul class="type_holder">
+						<a href="#appointment"><li>Appointment</li></a>
+						<a href="#vaccination"><li>Vaccination</li></a>
+						<a href="#pharmacy"><li>In House Pharmacy</li></a>
+						<a href="#checkup"><li>Steady MD</li></a>
+						<a href="#ambulance"><li>Ambulance</li></a>
+					</ul>
+			</div>
+			<div class="team_container">
+				<div class="service_container">
+					<h2>Emergency</h2>
+						<table>
+							<tr>
+								<th>Emergency Numbers</th>
+								<th>Location</th>
+							</tr>
+							<tr>
+								<td>01-4244121</td>
+								<td>New Road</td>
+							</tr>
+							<tr>
+								<td>01-420805</td>
+								<td>Bagbazar</td>
+							</tr>
+							<tr>
+								<td>015522278</td>
+								<td>Patan Hospital</td>
+							</tr>
+							<tr>
+								<td>016610676</td>
+								<td>Bhaktapur Hospital</td>
+							</tr>
+							<tr>
+								<td>014414798</td>
+								<td>Kanti Children Hospital</td>
+							</tr>
+							<tr>
+								<td>014225344</td>
+								<td>Blood Bank</td>
+							</tr>
+							<tr>
+								<td>102</td>
+								<td>Nepal Ambulance Service</td>
+							</tr>
+						</table>
+					</div>
+					<h2 id="appointment">Appointment</h2>
+					<div class="service_container">
+						<div class="box">
+							<div class="text_holder" >	
+									<form method="get" action="#">
+											<h2>Personal Infromation</h2>
+												<p>Patient Name :<input type="text" name="name" required></p>
+												<p>Address :<input type="text" name="address" required></p>
+												<p>Phone Number :<input type="text" name="address" required></p>
+												<p>Gender: 
+													<select>
+														<option value="male">Male</option>
+														<option value="female">Female</option>
+														<option value="other">Others</option>
+													</select>
+												</p>
+												<p> Related To:
+													<select>
+														<option value="chest">Cardiologist</option>
+														<option value="ENT">ENT specialist</option>
+														<option value="stomach">gastroenterologists</option>
+														<option value="dentist">Dentist</option>
+														<option value="mental_health">Psychatrist</option>
+														<option value="child">Paediatrician</option>
+														<option value="Nerves">Neurologist</option>
+														<option value="general">Primary Care Physician</option>
+														<option value="audio">Audiologist</option>
+													</select>	
+												</p>
+												<h2>Schedule Information</h2>
+												<p>Date:
+													<input type="date" name="date" required>
+												</p>
+												<p>Time:
+													<input type="time"  name="appt" min="06:00" max="22:00" required>
+												</p>
+
+												Any Symptoms explanation:
+												<br>
+												<textarea rows=7 cols="50"></textarea>
+												<p>
+													<input type="Submit" name="Submit">
+													<input type="Reset" name="Clear">
+												</p>
+												<br>
+										
+									</form>
+							</div>
+						</div>
+						<div style="clear: both;"></div>
+					</div>
+				
+					<div class="service_container">
+						<h2 id="vaccination">Vaccination</h2>
+						<div class="box">
+							<h3>Child Vaccination</h3>
+							<div id="vaccination_container">
+								<table>
+									<tr>
+										<th>Vaccine</th>
+										<th>Prevents From</th>
+										<th>Time For Vaccination</th>
+									</tr>
+									<tr>
+										<td>Bacillus Calmette Guerin (BCG)</td>
+										<td>Tuberculosis</td>
+										<td>At Birth</td>
+									</tr>
+									<tr>
+										<td>DPT</td>
+										<td>Diphtheria/Pertussis/Tetanus/</td>
+										<td>6, 10, 14 weeks</td>
+									</tr>
+									<tr>
+										<td>HepB-HiB</td>
+										<td>Hepatitis B/Haemophilus influenzae type b</td>
+										<td>6, 10, 14 weeks</td>
+									</tr>
+									<tr>
+										<td>Oral Polio Vaccine (OPV)</td>
+										<td>Polio</td>
+										<td>6, 10, 14 weeks</td>
+									</tr>
+									<tr>
+										<td>Pneumococcal Conjugate Vaccine (PCV)</td>
+										<td>Pneumococcal diseases (meninges, ear and chest infections)</td>
+										<td>6, 10 weeks and 9 months</td>
+									</tr>
+									<tr>
+										<td>Inactivated polio vaccine (IPV)</td>
+										<td>Polio</td>
+										<td>14 weeks</td>
+									</tr>
+									<tr>
+										<td>Measles - Rubella (MR)</td>
+										<td>Measles and Rubella (German measles)</td>
+										<td>9 and 15  months</td>
+									</tr>
+									<tr>
+										<td>Japanese Encephalitis (JE)</td>
+										<td>Japanese Encephalitis</td>
+										<td>12 months</td>
+									</tr>
+								</table>
+							</div>
+							<h3>Join Our Child Vaccination Plan</h3>
+							<div class="child_box">
+								<div class="image_holder">
+									<img src="../images/child.png">
+								</div>
+								<div class="text_box">
+									<h4>Join our 2year plan</h4>
+									<hr>
+									<p>Price : Rs.2000</p>
+									<p></p>
+								</div>
+								<div class="biography_box"><p>We are here to provide a convient way for new parents to easily access vaccination phase.</p></div>
+							</div>
+							<div class="child_box">
+								<div class="image_holder">
+									<img src="../images/childone.png">
+								</div>
+								<div class="text_box">
+									<h4>2 year vaccination Plan</h4>
+									<hr>
+									<p>Price : Rs. 5000</p>
+									
+								</div>
+								<div class="biography_box"><p>No need to schedule on vaccinating your child and check ups.</p></div>
+							</div>
+							<div class="child_box">
+								<div class="image_holder">
+									<img src="../images/childtwo.png">
+								</div>
+								<div class ="text_box">
+									<h4>5 year vaccination Plan</h4>
+									<hr>
+									<p>Price : Rs 10000</p>
+									
+								</div>
+								<div class="descriptionone_box"><p>We are here to help you with child vaccination plus medical checkups.</p></div>
+							</div>
+							<div style="clear: both;"></div>
+						</div>
+						<div class="box">
+							<h3  id="covid">Vaccination Program</h3>
+							<div class="text_holder">
+								<form method="get" action="#">
+											<h2>Personal Infromation</h2>
+												<p>Patient Name :<input type="text" name="name" required></p>
+												<p>Address :<input type="text" name="address" required></p>
+												<p>Phone Number :<input type="text" name="address" required></p>
+												<p>Email :<input type="text" name="email" required placeholder="example@gmail.com"></p>
+												<p>Country :<input type="text" name="country" placeholder="For Travellers From Outside Nepal"></p>
+												<p>Gender: 
+													<select>
+														<option value="male">Male</option>
+														<option value="female">Female</option>
+														<option value="other">Others</option>
+													</select>
+												</p>
+												<p> Related To:
+													<select>
+														<option value="chest">Covid Vaccine</option>
+														<option value="ENT">Typhoid Vaccine</option>
+														<option value="stomach">Measles Vaccine</option>
+														<option value="dentist">Rabies Vaccine</option>
+													</select>	
+												</p>
+												<h2>Schedule Information</h2>
+												<p>Date:
+													<input type="date" name="date" required>
+												</p>
+												<p>Time:
+													<input type="time"  name="appt" min="08:00" max="04:00" required>
+												</p>
+												<p>
+													<input type="Submit" name="Submit">
+													<input type="Reset" name="Clear">
+												</p>
+									</form>
+							</div>
+						</div>
+					</div>
+					<div class="service_container">
+						<h2>Steady MD</h2>
+						<div class="box">
+							<div class="text_holder" id="pharmacy">
+								<h2>Personal Infromation</h2>
+								<p>Patient Name :<input type="text" name="name" required></p>
+								<p>Address :<input type="text" name="address" required></p>
+								<p>Phone Number :<input type="text" name="address" required></p>
+								<p>Email :<input type="text" name="email" required placeholder="example@gmail.com"></p>
+								<p>Country :<input type="text" name="country" placeholder="For Travellers From Outside Nepal"></p>
+								<p>Gender: 
+									<select>
+										<option value="male">Male</option>
+										<option value="female">Female</option>
+										<option value="other">Others</option>
+									</select>
+								</p>
+								<p> Related To:
+								<select>
+									<option value="chest">Covid Vaccine</option>
+									<option value="ENT">Typhoid Vaccine</option>
+									<option value="stomach">Measles Vaccine</option>
+									<option value="dentist">Rabies Vaccine</option>
+								</select>	
+								</p>
+									<h2>Schedule Information</h2>
+									<p>Date:
+										<input type="date" name="date" required>
+									</p>
+									<p>Time:
+										<input type="time"  name="appt" min="08:00" max="04:00" required>
+										</p>
+									<p>
+										<input type="Submit" name="Submit">
+										<input type="Reset" name="Clear">
+									</p>
+							</div>
+						</div>
+					</div>
+					<div class="service_container">
+						<h2 id="checkup">Whole Body Checkup</h2>
+						<div class="box">
+							<div class="text_holder">
+								<div id="costtable_holder">
+									<table>
+										<tr>
+											<th>Whole Body Check Up</th>
+											<th>Cost</th>
+										</tr>
+										<tr>
+											<td>Per person</td>
+											<td>5000</td>
+										</tr>
+									</table>
+								</div>
+								<form method="get" action="#">
+									<h2>Personal Infromation</h2>
+									<p>Patient Name :<input type="text" name="name" required></p>
+									<p>Address :<input type="text" name="address" required></p>
+									<p>Phone Number :<input type="text" name="address" required></p>
+									<p>Email :<input type="text" name="email" required placeholder="example@gmail.com"></p>
+									<p>Country :<input type="text" name="country" placeholder="For Travellers From Outside Nepal"></p>
+									<p>Gender: 
+										<select>
+											<option value="male">Male</option>
+											<option value="female">Female</option>
+											<option value="other">Others</option>
+										</select>
+									</p>
+									<h2>Schedule Information</h2>
+									<p>Date:
+										<input type="date" name="date" required>
+									</p>
+									<p>Time:
+										<input type="time"  name="appt" min="08:00" max="04:00" required>
+									</p>
+									<p>
+										<input type="Submit" name="Submit">
+										<input type="Reset" name="Clear">
+									</p>
+								</form>
+						<h3>Want To Join Our CheckUp Packages?</h3>
+							<div class="plan_box">
+								<div class="image_holder">
+									<img src="../images/child.png">
+								</div>
+								<div class="text_box">
+									<h4>Once in 6month</h4>
+									<hr>
+									<p>Price : Rs.30000</p>
+									<p></p>
+								</div>
+								<div class="plandetail_box"><p>Have problems with your health and need a perfect timed body check. We have came up with a brilliant plan for you. This plan will be valid for 5 years.</p></div>
+							</div>
+							<div class="plan_box">
+								<div class="image_holder">
+									<img src="../images/childone.png">
+								</div>
+								<div class="text_box">
+									<h4>Family Checkup Plan</h4>
+									<hr>
+									<p>Price : Rs. 100000</p>
+									
+								</div>
+								<div class="plandetail_box"><p>Do you want to have yearly reminder for your whole family to have a full body checkup? If yes, the this is a perfect plan for you and your family.This plan will be valid for 5 years</p></div>
+							</div>
+							<div class="plan_box">
+								<div class="image_holder">
+									<img src="../images/childtwo.png">
+								</div>
+								<div class ="text_box">
+									<h4>Once in a year</h4>
+									<hr>
+									<p>Price : Rs 50000</p>
+									
+								</div>
+								<div class="plandetail_box"><p>A perfect yearly reminder for your whole body checkup. This plan is valid for 5 years.</p></div>
+							</div>
+							<div style="clear: both;"></div>
+							</div>
+						</div>
+					</div>
+					<div class="service_container">
+						<h2>Ambulance</h2>
+						<div class="box">
+							<h3>Our Ambulance Service</h3>
+								<div id = "ambulance">
+									<table>
+										<tr>
+											<th>Ambulance Location</th>
+											<th>Driver's Name</th>
+											<th>Phone Number</th>
+										</tr>
+										<tr>
+											<td>Kathmandu</td>
+											<td>Ram Kumar</td>
+											<td>9875121414</td>
+										</tr>
+										<tr>
+											<td>Kalanki,Kathmandu</td>
+											<td>Hari Rai</td>
+											<td>9875121415</td>
+										</tr>
+										<tr>
+											<td>Teku,Kathmandu</td>
+											<td>Krishna Maharjan</td>
+											<td>9875121416</td>
+										</tr>
+										<tr>
+											<td>SinghaDurbar,Kathmandu</td>
+											<td>Rajesh Shrestha</td>
+											<td>9875121417</td>
+										</tr>
+										<tr>
+											<td>Patan</td>
+											<td>Vijaya Amatya</td>
+											<td>9874714515</td>
+										</tr>
+										<tr>
+											<td>Godawari,Patan</td>
+											<td>Jagar Giri</td>
+											<td>9874714516</td>
+										</tr>
+										<tr>
+										<td>Mangalbazar,Patan</td>
+										<td>Shinja Amatya</td>
+										<td>9874714517</td>
+										</tr>
+										<tr>
+											<td>Patan</td>
+											<td>Sahesh Shresth</td>
+											<td>9874714518</td>
+										</tr>
+									</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer>
+			<div class="footer_container">
+				<div class="foot_box_holder">
+					<div class="description_box">
+						<h2>About Us</h2>
+						<p>We are a small foundation with aim to chnage health care facility from being limited to healrth care through online medium. Hope we have provided a qualty medium for our customers to access the health care facility. We are glad to have such a great team and energetic members. I would like to thank you all for supporting us.</p>
+					</div>
+					<div class="partner_box">
+						<h2>Our Partners</h2>
+						<p>E-pharmacy</p>
+						<p>Medi-care Health</p>
+						<p>E-health Blogs</p>
+						<p></p>
+					</div>
+					<div class="nav_box"> 
+						<h2>Quick Links</h2>
+						<a href="../index.html">Home</a>
+						<a href="services.html">Services</a>
+						<a href="department.html">Our Team</a>
+						<a href="specialist.html">Talk to a Specialist</a>
+						<a href="appointment.html">Appointment</a>
+						<a href="contact.html">Contact Us</a>
+					</div>
+					<div class="foot_icon_box">
+					<a href="#"><img src="../images/twitter.png"></a>
+					<a href="#"><img src="../images/whatsapp.png"></a>
+					<a href="#"><img src="../images/facebook.png"></a>
+					<a href="#"><img src="../images/instagram.png"></a>
+					<a href="#"><img src="../images/viber.png"></a>
+					<a href="#"><img src="../images/discord.png"></a>
+				</div>
+				</div>
+			</div>
+		</footer>
+		<div id="overlay" >
+
+  			<div class="text">
+  				<span id ="btn" onclick="off()"> &larr;  Homepage</span><h2>Profile Information</h2>
+  				<hr>
+  				<table>
+  					<caption>Personal Information</caption>
+  					<tr>
+  						<th>Name: </th>
+  						<td>Test User</td>
+  					</tr>
+  					<tr>
+  						<th>Age:</th>
+  						<td>27</td>
+  					</tr>
+  					<tr>
+  						<th>Date of birth:</th>
+  						<td>1993 August 10</td> 
+  					</tr>
+  					<tr>
+  						<th>Current Address:</th>
+  						<td>Swornimbasti, Balaju, Kathmandu</td>
+  					</tr>
+  					<tr>
+  						<th>Email:</th>
+  						<td>test.user@gmail.com</td>
+  					</tr>
+  					<tr>
+  						<th>Customer ID NO. : </th>
+  						<td>2145547</td>
+  					</tr>
+  					<tr>
+  						<th>Phone Number: </th>
+  						<td>9481123657,014225768,9875468862</td>
+  					</tr>
+  				</table>
+  			</div>
+  			<div class="profileimage_holder">
+  				<img src="../images/patient.png">
+  			</div>
+		</div>
+	</div>
+	<script>
+		function on() {
+		  document.getElementById("overlay").style.display = "block";
+		}
+
+		function off() {
+		  document.getElementById("overlay").style.display = "none";
+		}
+	</script>
+		</div>
+		
+</body>
+</html>

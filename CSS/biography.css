@@ -1,0 +1,75 @@
+html, body {
+     height: 40vw;
+}
+body{
+	background-image: url("../images/bio.jpg");
+	background-size: cover;
+}
+.fixed-width{
+	width: 50%;
+	margin: 0 auto;
+	background-color: white;
+	height: 100%;
+}
+.container{
+	height: 100%;
+	margin-top: 4em;
+	position: relative;
+	border: 2px solid rgb(0, 184, 217);
+}
+.heading{
+	position: absolute;
+	top: 15px;
+	width: 100%;
+	background-color: rgb(105, 232, 255);
+	border-radius: 4px;
+}
+.heading h2{
+	font-family: 'Arvo', serif;
+	background-color: white;
+	margin-left: 35% ;
+	width: 25%;
+	border-radius: 5px;
+	text-align: center;
+}
+.text_box{
+	position: absolute;
+	top: 10em;
+	left: 2em;
+	background-color: rgba(235, 235, 235, 0.5);
+	width: 60%;
+}
+.text_box h3, h3{
+	font-family: 'Arvo', serif;
+	border-bottom: 2px solid black;
+}
+.text_box p, .hobby_box p{
+	font-family: 'Zilla Slab', serif;
+	font-size: 18px;
+	margin: 5px;
+}
+.hobby_box{
+	position: absolute;
+	top: 23em;
+	left: 2em;
+	background-color: rgba(235, 235, 235, 0.5);
+	width: 90%;
+}
+.quote_box{
+	position: absolute;
+	bottom: 1em;
+	left: 2em;
+	background-color: rgba(235, 235, 235, 0.5);
+	width: 90%;
+}
+.quote_box p{
+	font-family: 'Zilla Slab', serif;
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+}
+.image_box{
+	position: absolute;
+	right: 0;
+	top: 10em;
+}

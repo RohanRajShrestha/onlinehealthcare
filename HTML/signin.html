@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sign In</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/signin.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Slab:wght@300&family=STIX+Two+Math&family=Arvo&family=Amiri&display=swap" rel="stylesheet">
+	<link rel = "icon" href = "../images/logo.png" type = "image/x-icon">
+</head>
+<body>
+	<div class="fixed-width">
+	<a href="../index.html"><span>&larr; Go Back</span></a>
+	<h2>Sign In</h2>
+		<div class="service_container">
+			<div class="box">
+				<div class="text_holder" >	
+						<form method="post" action="../index.html">
+								<h2>Personal Infromation</h2>
+									<p>Patient Name :<input type="text" name="name" required></p>
+									<p>Address :<input type="text" name="address" required></p>
+									<p>Phone Number :<input type="text" name="address" required></p>
+									<p>Gender: 
+										<select>
+											<option value="male">Male</option>
+											<option value="female">Female</option>
+											<option value="other">Others</option>
+										</select>
+									</p>
+									<p>Email :<input type="text" name="email" required placeholder="example@gmail.com"></p>
+									<p>Password :<input type="password" name="password" required placeholder="Minimum characters 8" minlength="8"></p>
+									<p>Re-type Password :<input type="password" name="password" required></p>
+									<p>BirthDate:
+										<input type="date" name="date" required>
+									</p>
+									<p>Past or Current health related problems: <br>
+									<input type="text" name="health" required placeholder="highbloodpressure, lowbloodpressure,migrane, asthama">
+									</p>
+
+									Any Symptoms explanation:
+									<br>
+									<textarea rows=7 cols="50"></textarea>
+									<p>
+										<input type="Submit" name="Submit" value="Submit">
+										<input type="Reset" name="Clear">
+									</p>
+									<br>
+							
+						</form>
+				</div>
+			</div>
+		</div>
+		</div>
+</body>
+</html>

@@ -1,0 +1,182 @@
+.container{
+	position: relative;
+	width: 100%;
+	height: 5150px;
+}
+.side_nav{
+	position: absolute;
+	top: 1em;
+	left: 0em;
+	width: 20%;
+}
+.side_nav{
+	list-style-type: none;
+}
+.side_nav ul li{
+	display: block;
+	padding: 10px;
+}
+.side_nav .type_holder li{
+	padding-left: 20px;
+}
+.side_nav .type_holder a{
+	text-decoration: none;
+	color: black;
+	font-family: 'STIX Two Math', serif;
+}
+h2,h3{
+	font-family: 'Arvo', serif;
+}
+.side_nav .type_holder a li:hover{
+	background-color: lightgrey;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+.team_container{
+	position: absolute;
+	right: 0;
+	width: 80%;
+	padding: 10px;
+}
+.service_container, .box{
+	margin: 25px 5px;
+	border-radius: 5px;
+}
+.box{
+	width: 100%;
+	border: 1px solid #dfdfdf;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+	border: 1px solid white;
+	padding: 10px;
+}
+.service_container table{
+	border-collapse: collapse;
+	width: 100%;
+
+}
+.service_container table th{
+	background-color: rgba(255, 46, 23,0.9);
+	font-size: 20px;
+	color: white;
+}
+.service_container td,th{
+	padding: 10px;
+	font-family: 'Nunito', sans-serif;
+	font-family: 15px;
+}
+.service_container tr:nth-child(odd){
+	background-color: rgba(161, 198, 255, 0.6);
+}
+.text_holder p{
+	margin: 10px;
+}
+.text_holder h2, .service_container h2{
+	border-bottom: 1px solid lightblue;
+	margin: 20px 10px ;
+}
+.text_holder input[type=text]{
+	width: 80%;
+	margin: 5px;
+	padding: 7px;
+	height: 30px;
+	border: 1px solid blue;
+	border-radius: 7px;
+}
+
+.text_holder input[type=radio], option, textarea{
+	margin: 10px;
+	padding: 5px;
+}
+
+input[type="Submit"],input[type=Reset]{
+	width: 5em;
+	padding: 7px 8px;
+	font-family: Georgia;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type="Submit"]{
+	background-color: rgba(39, 103, 212,0.8);
+}
+input[type=Reset]{
+	background-color: grey;
+}
+#vaccination_container table th{
+	background-color: rgba(28, 145, 255,1.0);
+}
+.child_box{
+	width: 31%;
+	height: 10em;
+	border: 1px solid #dfdfdf;
+	margin: 7px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	border-radius: 5px;
+	background-color: rgba(155, 57, 247,0.2);
+	cursor: pointer;
+}
+.child_box:hover{
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+	border: 1px solid white;
+}
+.image_holder{
+	position: relative;
+	left: 0;
+}	
+.image_holder img{
+	width: 35%;
+}
+.text_box h4{
+	width: 65%;
+	position: absolute;
+	top: 5px;
+	right: 0;
+	margin: 2px 5px;
+	padding-left: 4px;
+}
+.text_box p{
+	width: 65%;
+	position: absolute;
+	top: 35px;
+	right: 0;
+	margin: 2px;
+	padding-left: 4px;
+}
+.descriptionone_box{
+	position: absolute;
+	bottopm: 0;
+	margin: 10px;
+}
+.service_container h3{
+	font-family: 'Arvo', serif;
+	border-bottom: 1px solid lightblue;
+	margin: 20px 5px;
+}
+.plan_box{
+	width: 31%;
+	height: 15em;
+	border: 1px solid #dfdfdf;
+	margin: 7px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	border-radius: 5px;
+	background-color: rgba(255, 162, 0,0.4);
+	cursor: pointer;
+	text-align: justify;
+}
+.plan_box:hover{
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+	border: 1px solid white;
+}
+#costtable_holder table th{
+	background-color: rgba(166, 255, 0, 0.7);
+}

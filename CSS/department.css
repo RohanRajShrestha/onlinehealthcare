@@ -1,0 +1,241 @@
+.body, *{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			
+		}
+
+.fixed-width{
+	margin: 0 auto;
+	width: 75%;
+}
+.nav-bar{
+	margin: 0 auto;
+}
+
+.head{
+	font-family: 'Merriweather', serif;
+	font-size: 30px;
+	color: #12b8ff;
+	position: relative;
+	bottom: 1em;
+}
+#head img{
+	width: 20vw;
+	position: relative;
+	left: 24vw;
+}
+nav{
+	width: 100%;
+	background-color: #2767d4;
+}
+.nav-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float: left;
+
+}
+
+.nav-bar ul li a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	color: whitesmoke;
+	padding: 15px;
+}
+.nav-bar ul li{
+	float : left;
+
+}
+.nav-bar a:hover,
+.nav-bar > ul > a:active{
+	background-color: whitesmoke;
+	color: black;
+}
+
+.dropdown img{
+	width: 44px;
+	padding: 1px;
+}
+.dropbtn {
+	border: none;
+	background-color: #2767d4;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	float: right;
+}
+
+.dropdown_content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 220px;
+	box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown_content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-size: 18px;
+}
+.dropdown_content p{
+	color: black;
+	padding: 10px 12px;
+	display: block;
+	background-color: lightgrey;
+	font-size: 16px;
+}
+.dropdown_content a:hover{
+	background-color: lightblue;
+}
+
+.dropdown:hover .dropdown_content {
+	display: block;
+}
+.dropdown:hover button{
+	background-color: white;
+}
+.image_container{
+	position: relative;
+	margin-top: 10px;
+	
+}
+.image_container h2{
+	padding: 10px;
+	font-family: 'Arvo', serif;
+	font-size: 25px;
+}
+.image_container img{
+	width: 100%;
+}
+.text_container{
+	position: absolute;
+	top: 10px;
+	left: 15px;
+}
+.text_container ul {
+	margin-left: 20px;
+	margin-bottom: 5px;
+}
+.text_container ul li{
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+	padding: 2px;
+}
+.text_container .btn{
+	font-family: 'Quicksand', sans-serif ;
+	font-weight: 500;
+	background-color: #2767d4;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 5px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.text_container .btn:hover{
+	background-color: #3ba0ff;
+	box-shadow: 2px 2px 3px grey;
+}
+.container{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+	height: 2381px;
+}
+.side_nav{
+	position: absolute;
+	left: 0;
+	width: 20%;
+}
+.side_nav{
+	list-style-type: none;
+}
+.side_nav ul li{
+	display: block;
+	padding: 10px;
+}
+.side_nav .type_holder li{
+	padding-left: 20px;
+}
+.side_nav .type_holder a{
+	text-decoration: none;
+	color: black;
+}
+.side_nav li  h2{
+	font-family: 'Arvo', serif;
+}
+.side_nav .type_holder a li:hover{
+	background-color: lightgrey;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+}
+.team_container{
+	position: absolute;
+	right: 0;
+	text-align: left;
+	width: 80%;
+	padding: 10px;
+}
+.text_container h2, .text_container h3{
+	padding: 10px;
+}
+.team_container hr{
+	margin: 10px;
+}
+.profile_container{
+	margin: 5px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+
+}
+.profile_container a{
+	text-decoration: none;
+}
+
+.box{
+	width: 31%;
+	height: 10em;
+	border: 1px solid #dfdfdf;
+	margin: 7px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	border-radius: 5px;
+	background-color: rgba(126, 188, 224,0.2);
+}
+.box:hover{
+	background-color: white;
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+	border: 1px solid white;
+}
+.image_holder{
+	position: relative;
+	left: 0;
+}	
+.image_holder img{
+	width: 35%;
+}
+.text_holder{
+	width: 65%;
+	position: absolute;
+	top: 5px;
+	right: 0;
+	margin: 5px;
+}
+.biography_box{
+	position: absolute;
+	bottopm: 0;
+	margin: 10px;
+}

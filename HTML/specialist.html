@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Talk To A Speacialist</title>
+	<link rel = "icon" href = "../images/logo.png" type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../CSS/specialist.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/headerandfooter.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="fixed-width">
+		<b class= "head" >Electonic Health For Quality Care</b>
+		<span id="head"><a href="../index.html"><img src="../images/moto.png"></a></span>
+		<nav class="nav-bar">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="department.html">Our Team</a></li>
+					<li><a href="specialist.html">Talk to a Specialist</a></li>
+					<li><a href="appointment.html">Appointment</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+				<div class="dropdown">
+					<button class="dropbtn"><img src="../images/icon.png"></button>
+					<div class="dropdown_content">
+						<p>Test User</p>
+						<a href="#" onclick="on()">Profile</a>
+						<a href="Log.html">Switch Account</a>
+						<a href="#">Medical Reports</a>
+						<a href="appointment.html">Appointment</a>
+						<a href="../index.html">Logout</a>
+						</div>
+				</div>
+			<div style="clear: both;"></div>
+		</nav>
+		<header>
+			<div class="image_container"><img src="../images/livechat.jpg">
+					<h2>Intoducing Live Chat</h2>
+					<div class="text_one">
+						<p>Hey, How Are you today?</p>
+					</div>
+					<div class="text_two">
+						<p>I'm feeling kind of unwell.</p>
+					</div>
+					<div class="text_three"><p>Have your checked you blood pressure?</div>
+			</div>	
+		</header>
+		<section>
+			<div class="heading" ><h2>Live Chat</h2></div>
+			<div class="chat_container" >
+				<div class="chat_box user">
+					<img src="../images/patient.png"><span class="name_holder patient">Annoynomus</span>
+					<div class="message_holder "><p>I had a headache from last night. It's not going away. My eye sight seem slight blury</p></div>
+					<span class="time_holder">9:00am</span>
+				</div>
+				<div class="chat_box bot">
+					<img src="../images/bot.png"><span class="name_holder bot_reply">Bot Helper</span>
+					<div class="message_holder "><p>Sorry for your inconvience. Please wait till a doctor from the sector reply. Till then why not drink a glass of water and rest for few minutes.</p></div>
+					<span class="time_holder">9:01am</span>
+				</div>
+				<div class="chat_box reply">
+					<img src="../images/doctoravatar.png"><span class="name_holder doctor">Dr.Dikshya Tuladhar</span>
+					<div class="message_holder"><p>Could you explain further about your symptoms and also this week's sleep schedule? Or any futher symptoms like pain in left side, right side or front/back of your head?</p></div>
+					<span class="time_holder">9:03am</span>
+				</div>
+				<div class="chat_box user">
+					<img src="../images/patient.png"><span class="name_holder patient">Annoynomus</span>
+					<div class="message_holder"><p>My sleep schedule was slightly affected by due to construction work near my area. The pain is much more on the eye and front area.</p></div>
+					<span class="time_holder">9:04am</span>
+				</div>
+				<div class="chat_box reply">
+					<img src="../images/doctoravatar.png"><span class="name_holder doctor">Dr.Dikshya Tuladhar</span>
+					<div class="message_holder "><p>Did you have any other symptoms like nausea  or vomiting? If yes you should get checked right away. If not you can should relax a bit in a dark area or just cover your eyes. It might just be because of sleep deprivation. Take a few hour's nap and if that doesn't help you can take pain relievers like Bufferin. </p></div>
+					<span class="time_holder">9:05am</span>
+				</div>
+				<div class="chat_box user">
+					<img src="../images/femaleavatar.png"><span class="name_holder patient">Reeya Shrestha</span>
+					<div class="message_holder"><p>I am facing some kind issues in the chest area. I am having a low blood pressure and short of breath. !emergency !cardiologist</p></div>
+					<span class="time_holder">9:15am</span>
+				</div>
+				<div class="chat_box bot">
+					<img src="../images/bot.png"><span class="name_holder bot_reply">Bot Helper</span>
+					<div class="message_holder "><p>It feels like your are in an emergency condition. I have notified all the cardiologist online. You should elaborate more on your symptoms till then.</p></div>
+					<span class="time_holder">9:15am</span>
+				</div>
+				<div class="chat_box user">
+					<img src="../images/femaleavatar.png"><span class="name_holder patient">Reeya Shrestha</span>
+					<div class="message_holder"><p>Don't know what is wrong but I have been feeling chest pains and feeling dizzy. !emergency</p></div>
+					<span class="time_holder">9:15am</span>
+				</div>
+				<div class="chat_box bot">
+					<img src="../images/bot.png"><span class="name_holder bot_reply">Bot Helper</span>
+					<div class="message_holder "><p>IF the symptoms or condition is critical we can send an ambulance just run the command. !ambulance</p></div>
+					<span class="time_holder">9:15am</span>
+				</div>
+				<div id="text_area"class="chat_box reply">
+					<img src="../images/doctoravatar.png"><span class="name_holder doctor">Dr.Suhani Shrestha</span>
+					<div class="message_holder "><p>You seem to be in a high risk of a heart attack. Lay on your bed. We will send you an ambulance through the address provided on your login or contact near authorities don't worry. Stay calm and don't panic.!ambulance @reeya_shrestha !bot_authorities</p></div>
+					<span class="time_holder">9:16am</span>
+				</div>
+				<div class="chat_box bot">
+					<img src="../images/bot.png"><span class="name_holder bot_reply">Bot Helper</span>
+					<div class="message_holder "><p>Got It. Contacted all authorites they're on their way.</p></div>
+					<span class="time_holder">9:15am</span>
+				</div>
+			</div>
+			<div class="chat">
+				<form action="">
+					<label>Message:</label>
+					<textarea placeholder="type message.."></textarea><span><button type="submit" class="btn">Send</button></span>
+				</form>
+			</div>
+		</section>
+		<hr>
+		<div class="table_container">
+			<div class = note_container>
+				<p>Some of the commands might only work for people with our e-health account.
+				</p>
+			</div>
+			<table>
+				<caption align="top">Command For Bot</caption>
+				<tr>
+					<th>Command</th>
+					<th>Work</th>
+				</tr>
+				<tr>
+					<td>!emergency</td>
+					<td>Notifies all the available doctor immeadiatly.</td>
+				</tr>
+				<tr>
+					<td>!particular_doctorname</td>
+					<td>Notfies Him/Her only. If used with !emergency the notification will pass immeadiatly</td>
+				</tr>
+				<tr>
+					<td>!particular_doctorfield</td>
+					<td>Notifies all the doctor of the particular field. If used with !emergency the notification will pass immeadiatly</td>
+				</tr>
+				<tr>
+					<td>!mentalhealth</td>
+					<td>Our team will reach out to you as soon as possible.</td>
+				</tr>
+				<tr>
+					<td>!ambulance</td>
+					<td>For ambulance services</td>
+				</tr> 
+			</table>
+		</div>
+		<article> 
+			<div class="heading" id = "community"><h2>Join Our Community In Other Platforms</h2>
+			</div>
+			<div class="community_container">
+				<div class="icon_container" id="#community">
+					<a href="#"><img src="../images/twitter.png"></a>
+					<a href="#"><img src="../images/whatsapp.png"></a>
+					<a href="#"><img src="../images/facebook.png"></a>
+					<a href="#"><img src="../images/instagram.png"></a>
+					<a href="#"><img src="../images/youtube.png"></a>
+					<a href="#"><img src="../images/tiktok.png"></a>
+					<a href="#"><img src="../images/viber.png"></a>
+					<a href="#"><img src="../images/discord.png"></a>
+					<a href="#"><img src="../images/reddit.png"></a>
+				</div>
+			</div>
+		</article>
+		<footer>
+			<div class="footer_container">
+				<div class="foot_box_holder">
+					<div class="description_box">
+						<h2>About Us</h2>
+						<p>We are a small foundation with aim to chnage health care facility from being limited to healrth care through online medium. Hope we have provided a qualty medium for our customers to access the health care facility. We are glad to have such a great team and energetic members. I would like to thank you all for supporting us.</p>
+					</div>
+					<div class="partner_box">
+						<h2>Our Partners</h2>
+						<p>E-pharmacy</p>
+						<p>Medi-care Health</p>
+						<p>E-health Blogs</p>
+						<p></p>
+					</div>
+					<div class="nav_box"> 
+						<h2>Quick Links</h2>
+						<a href="../index.html">Home</a>
+						<a href="services.html">Services</a>
+						<a href="department.html">Our Team</a>
+						<a href="specialist.html">Talk to a Specialist</a>
+						<a href="appointment.html">Appointment</a>
+						<a href="contact.html">Contact Us</a>
+					</div>
+					<div class="foot_icon_box">
+					<a href="#"><img src="../images/twitter.png"></a>
+					<a href="#"><img src="../images/whatsapp.png"></a>
+					<a href="#"><img src="../images/facebook.png"></a>
+					<a href="#"><img src="../images/instagram.png"></a>
+					<a href="#"><img src="../images/viber.png"></a>
+					<a href="#"><img src="../images/discord.png"></a>
+				</div>
+				</div>
+			</div>
+		</footer>
+		<div id="overlay" >
+
+  			<div class="text">
+  				<span id ="btn" onclick="off()"> &larr;  Homepage</span><h2>Profile Information</h2>
+  				<hr>
+  				<table>
+  					<caption>Personal Information</caption>
+  					<tr>
+  						<th>Name: </th>
+  						<td>Test User</td>
+  					</tr>
+  					<tr>
+  						<th>Age:</th>
+  						<td>27</td>
+  					</tr>
+  					<tr>
+  						<th>Date of birth:</th>
+  						<td>1993 August 10</td> 
+  					</tr>
+  					<tr>
+  						<th>Current Address:</th>
+  						<td>Swornimbasti, Balaju, Kathmandu</td>
+  					</tr>
+  					<tr>
+  						<th>Email:</th>
+  						<td>test.user@gmail.com</td>
+  					</tr>
+  					<tr>
+  						<th>Customer ID NO. : </th>
+  						<td>2145547</td>
+  					</tr>
+  					<tr>
+  						<th>Phone Number: </th>
+  						<td>9481123657,014225768,9875468862</td>
+  					</tr>
+  				</table>
+  			</div>
+  			<div class="profileimage_holder">
+  				<img src="../images/patient.png">
+  			</div>
+		</div>
+	</div>
+	<script>
+		function on() {
+		  document.getElementById("overlay").style.display = "block";
+		}
+
+		function off() {
+		  document.getElementById("overlay").style.display = "none";
+		}
+	</script>
+	</div>
+</body>
+</html>

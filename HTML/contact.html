@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact Details</title>
+	<link rel = "icon" href = "../images/logo.png" type = "image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../CSS/contact.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/headerandfooter.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+	<link rel = "icon" href = "../images/logo.png" type = "image/x-icon">
+</head>
+<body>
+	<div class="fixed-width">
+		<b class= "head" >Electonic Health For Quality Care</b>
+		<span id="head"><a href="../index.html"><img src="../images/moto.png"></a></span>
+		<nav class="nav-bar">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="department.html">Our Team</a></li>
+					<li><a href="specialist.html">Talk to a Specialist</a></li>
+					<li><a href="appointment.html">Appointment</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+				<div class="dropdown">
+					<button class="dropbtn"><img src="../images/icon.png"></button>
+					<div class="dropdown_content">
+						<p>Test User</p>
+						<a href="#" onclick="on()">Profile</a>
+						<a href="Log.html">Switch Account</a>
+						<a href="#">Medical Reports</a>
+						<a href="appointment.html">Appointment</a>
+						<a href="../index.html">Logout</a>
+						</div>
+				</div>
+			<div style="clear: both;"></div>
+		</nav>
+		<section class="body_container">
+			<div class="image_container">
+				<img src="../images/contact.jpg">
+			</div>
+			<div class="contact_container">
+				<form  action="get">
+					<label>Email</label><br>
+					<input type="text" name="email" placeholder="Email"><br>
+					<label>Review</label><br>
+					<input type="text" name="review" placeholder="Review"><br>
+					<label>Additional Message</label><br>
+					<textarea rows="4" cols="50"></textarea>
+					<a href="contact.html"><div class="btn">Submit</div></a>
+				</form>
+			</div>
+		</section>
+
+		<footer>
+			<div class="footer_container">
+				<div class="foot_box_holder">
+					<div class="description_box">
+						<h2>About Us</h2>
+						<p>We are a small foundation with aim to chnage health care facility from being limited to healrth care through online medium. Hope we have provided a qualty medium for our customers to access the health care facility. We are glad to have such a great team and energetic members. I would like to thank you all for supporting us.</p>
+					</div>
+					<div class="partner_box">
+						<h2>Our Partners</h2>
+						<p>E-pharmacy</p>
+						<p>Medi-care Health</p>
+						<p>E-health Blogs</p>
+						<p></p>
+					</div>
+					<div class="nav_box"> 
+						<h2>Quick Links</h2>
+						<a href="../index.html">Home</a>
+						<a href="services.html">Services</a>
+						<a href="department.html">Our Team</a>
+						<a href="specialist.html">Talk to a Specialist</a>
+						<a href="appointment.html">Appointment</a>
+						<a href="contact.html">Contact Us</a>
+					</div>
+					<div class="foot_icon_box">
+					<a href="#"><img src="../images/twitter.png"></a>
+					<a href="#"><img src="../images/whatsapp.png"></a>
+					<a href="#"><img src="../images/facebook.png"></a>
+					<a href="#"><img src="../images/instagram.png"></a>
+					<a href="#"><img src="../images/viber.png"></a>
+					<a href="#"><img src="../images/discord.png"></a>
+				</div>
+				</div>
+			</div>
+		</footer>
+		<div id="overlay" >
+
+  			<div class="text">
+  				<span id ="btn" onclick="off()"> &larr;  Homepage</span><h2>Profile Information</h2>
+  				<hr>
+  				<table>
+  					<caption>Personal Information</caption>
+  					<tr>
+  						<th>Name: </th>
+  						<td>Test User</td>
+  					</tr>
+  					<tr>
+  						<th>Age:</th>
+  						<td>27</td>
+  					</tr>
+  					<tr>
+  						<th>Date of birth:</th>
+  						<td>1993 August 10</td> 
+  					</tr>
+  					<tr>
+  						<th>Current Address:</th>
+  						<td>Swornimbasti, Balaju, Kathmandu</td>
+  					</tr>
+  					<tr>
+  						<th>Email:</th>
+  						<td>test.user@gmail.com</td>
+  					</tr>
+  					<tr>
+  						<th>Customer ID NO. : </th>
+  						<td>2145547</td>
+  					</tr>
+  					<tr>
+  						<th>Phone Number: </th>
+  						<td>9481123657,014225768,9875468862</td>
+  					</tr>
+  				</table>
+  			</div>
+  			<div class="profileimage_holder">
+  				<img src="../images/patient.png">
+  			</div>
+		</div>
+	</div>
+	<script>
+		function on() {
+		  document.getElementById("overlay").style.display = "block";
+		}
+
+		function off() {
+		  document.getElementById("overlay").style.display = "none";
+		}
+	</script>
+</body>
+</html>
